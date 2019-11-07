@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Broadcaster</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+</head>
+
+<body>
+    <div id="container" style="margin: auto;width: 90%;">
+        <div class="topnav" id="myTopnav">
+            <div class="dropdown">
+                <button class="dropbtn" style="background-color:#6D2C6B;">
+            Robert
+          </button>
+                <div class="dropdown-content">
+                    <a href="../pages/userProfile.html">Profile</a>
+                </div>
+            </div>
+            <div class="dropdown"><button class="dropbtn">logout</button></div>
+            <div class="dropdown">
+                <button class="dropbtn">Red-Flag</button>
+                <div class="dropdown-content">
+                    <a href="#">All </a>
+                    <a href="#">Resolved</a>
+                    <a href="#">Rejected</a>
+                    <a href="#">Under Investigation</a>
+                    <a href="#">Draft</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Intervention</button>
+                <div class="dropdown-content">
+                    <a href="#">All </a>
+                    <a href="#">Resolved</a>
+                    <a href="#">Rejected</a>
+                    <a href="#">Under Investigation</a>
+                    <a href="#">Draft</a>
+                </div>
+            </div>
+            <div class="dropdown"><button class="dropbtn">Whole List</button></div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a
+        >
+      </div>
+    </div>
+    <!--this is the content of my page-->
+
+    <div class="row">
+      <div class="col-75">
+        <div class="container2">
+          <table>
+            <caption>
+              Red-Flag
+              <span class="num" style="float: none;">5</span>
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Status</th>
+                <th scope="col">Date</th>
+                <th scope="col">Creator</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="title">Corruption</td>
+                <td data-label="status">
+                  <select name="status" id="status" class="opts">
+                    <option value="draft" class="opt">Draft</option>
+                    <option value="Under-Investigation" class="opt"
+                      >Under-Investigation</option
+                    >
+                    <option value="Resolved" class="opt">Resolved</option>
+                    <option value="Rejected" class="opt">Rejected</option>
+                  </select>
+                </td>
+                <td data-label="date">31/10/2019</td>
+                <td data-label="creator">Robert</td>
+                <td data-label="action">
+                  <button class="morebtn">More</button>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="title">Corruption</td>
+                <td data-label="status">
+                  <select name="status" id="status" class="opts">
+                    <option value="draft" class="opt">Draft</option>
+                    <option value="Under-Investigation" class="opt"
+                      >Under-Investigation</option
+                    >
+                    <option value="Resolved" class="opt">Resolved</option>
+                    <option value="Rejected" class="opt">Rejected</option>
+                  </select>
+                </td>
+                <td data-label="date">31/10/2019</td>
+                <td data-label="creator">Robert</td>
+                <td data-label="action">
+                  <button class="morebtn">More</button>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="title">Corruption</td>
+                <td data-label="status">
+                  <select name="status" id="status" class="opts">
+                    <option value="draft" class="opt">Draft</option>
+                    <option value="Under-Investigation" class="opt"
+                      >Under-Investigation</option
+                    >
+                    <option value="Resolved" class="opt">Resolved</option>
+                    <option value="Rejected" class="opt">Rejected</option>
+                  </select>
+                </td>
+                <td data-label="date">31/10/2019</td>
+                <td data-label="creator">Robert</td>
+                <td data-label="action">
+                  <button class="morebtn">More</button>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="title">Corruption</td>
+                <td data-label="status">
+                  <select name="status" id="status" class="opts">
+                    <option value="draft" class="opt">Draft</option>
+                    <option value="Under-Investigation" class="opt"
+                      >Under-Investigation</option
+                    >
+                    <option value="Resolved" class="opt">Resolved</option>
+                    <option value="Rejected" class="opt">Rejected</option>
+                  </select>
+                </td>
+                <td data-label="date">31/10/2019</td>
+                <td data-label="creator">Robert</td>
+                <td data-label="action">
+                  <button class="morebtn">More</button>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="title">Corruption</td>
+                <td data-label="status">
+                  <select name="status" id="status" class="opts">
+                    <option value="draft" class="opt">Draft</option>
+                    <option value="Under-Investigation" class="opt"
+                      >Under-Investigation</option
+                    >
+                    <option value="Resolved" class="opt">Resolved</option>
+                    <option value="Rejected" class="opt">Rejected</option>
+                  </select>
+                </td>
+                <td data-label="date">31/10/2019</td>
+                <td data-label="creator">Robert</td>
+                <td data-label="action">
+                  <button class="morebtn">More</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <body></body>
+
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
