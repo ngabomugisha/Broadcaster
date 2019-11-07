@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Broadcaster</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+</head>
+
+<body>
+    <div id="container" style="margin: auto;width: 90%;">
+        <div class="topnav" id="myTopnav">
+            <div class="dropdown">
+                <button class="dropbtn" style="background-color:#6D2C6B;">
+                Admin
+              </button>
+                <div class="dropdown-content">
+                    <a href="../pages/userProfile.html">Profile</a>
+                </div>
+            </div>
+            <div class="dropdown"><button class="dropbtn">logout</button></div>
+            <div class="dropdown">
+                <button class="dropbtn">Red-Flag</button>
+                <div class="dropdown-content">
+                    <a href="#">All </a>
+                    <a href="#">Resolved</a>
+                    <a href="#">Rejected</a>
+                    <a href="#">Under Investigation</a>
+                    <a href="#">Draft</a>
+                    <a href="#" style="background-color: #555;"></a>
+                    <a href="../pages/insertRed-flag.html">Create</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Intervention</button>
+                <div class="dropdown-content">
+                    <a href="#">All </a>
+                    <a href="#">Resolved</a>
+                    <a href="#">Rejected</a>
+                    <a href="#">Under Investigation</a>
+                    <a href="#">Draft</a>
+                    <a href="#" style="background-color: #555;"></a>
+                    <a href="../pages/insertIntervention.html">Create</a>
+                </div>
+            </div>
+            <div class="dropdown"><button class="dropbtn">Whole List</button></div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a
+        >
+      </div>
+    </div>
+    <!--this is the content of my page-->
+    <div class="dashcontainer">
+        
+        <div class="dash">
+        <div class="head">
+          <h3>Red-flag</h3>
+          <hr />
+        </div>
+        <div>
+        </label>
+        <label class="box">Not Procssed
+        <span class="num">3</span>
+        </label>
+        <label class="box">in process
+            <span class="num">2</span>
+        </label>
+        <label class="box">Resolved
+            <span class="num">1</span>
+        </label>
+        <label class="box">Rejected
+            <span class="num">2</span>
+        </div>
+      </div>
+
+      <div class="dash">
+        <div class="head">
+          <h3>Intervention</h3>
+          <hr />
+        </div>
+        <div>
+        </label>
+        <label class="box">Not Procssed
+        <span class="num">4</span>
+        </label>
+        <label class="box">in process
+            <span class="num">2</span>
+        </label>
+        <label class="box">Resolved
+            <span class="num">1</span>
+        </label>
+        <label class="box">Rejected
+            <span class="num">4</span>
+        </div>
+      </div>
+      
+    </div>
+
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
