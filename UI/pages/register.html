@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Broadcaster</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="head">
+                <h3>Register Here</h3>
+                <hr>
+            </div>
+            <div class="body">
+                <p>Please fill in this form to sign up.</p>
+                <form>
+                    <input type="text" placeholder="Enter First Name" name="firstName" required>
+                    <input type="text" placeholder="Enter Last Name" name="lastName" required>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+                    <input type="text" placeholder="Enter username" name="username" required>
+                    <input type="number" placeholder="Enter Phone number" name="phone" required>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label class="radiobtn">User
+                    <input type="radio" checked="checked" name="type" value="User">
+                    <span class="checkmark"></span>
+                  </label>
+                    <label class="radiobtn">Admin
+                    <input type="radio" name="type" value="admin">
+                    <span class="checkmark"></span>
+                  </label>
+
+                    <br><br>
+                    <hr><br><br>
+
+
+                    <button type="submit" class="registerbtn">Register</button>
+                </form>
+                <p><b>Already have an account? </b><a href="login.html"><b>Sign in</b></a>.</p>
+
+            </div>
+        </div>
+
+
+
+
+        <script src="../JS/script.js"></script>
+</body>
+
+</html>
